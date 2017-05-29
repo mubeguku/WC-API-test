@@ -12,7 +12,7 @@ $options = array(
 
 try {
 
-	$client = new WC_API_Client( 'http://www.hortes.ee', 'ck_f6c6fe95ed6a74f889e03e1497e06ed694640b1d', 'cs_5b7303a21cf3fb0fe7a3695229f0cb57794b14e7', $options );
+	$client = new WC_API_Client( 'http://www.url.ee', 'xxx', 'xxx', $options );
 
 	// coupons
 	//print_r( $client->coupons->get() );
